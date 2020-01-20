@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FlexcubeAutomationSuite" verbose="1">
+	
+	<!-- <test name="Regression1">
+		<classes>
+			<class name="com.jmr.testsuite.fas.action.cl.CLDACCNT_Test" />
+		</classes>
+	</test> -->
+	
+	<test name="Regression2">
+		<classes>
+			 					 
+			<class name="com.jmr.testsuite.sujeet.action.GEDCOLLTTest" /> 
+			<class name="com.jmr.testsuite.sujeet.action.GEDFACLTTest" />
+			<class name="com.jmr.testsuite.sujeet.action.GEDMLIABTest" />
+			<class name="com.jmr.testsuite.sujeet.action.GEDMPOOLTest" />
+			
+			<class name="com.jmr.testsuite.sujeet.action.DEDJNLONTest" />
+ 			<class name="com.jmr.testsuite.sujeet.action.CADAMBLKTest" />			
+			<class name="com.jmr.testsuite.sujeet.action.CADCAMBLTest" />
+
+			<class name="com.jmr.testsuite.sujeet.action.DEDTLRONTest" />
+			<class name="com.jmr.testsuite.sujeet.action.DEDTLRONTest" />
+			<!-- <class name="com.jmr.testsuite.sujeet.action.DEDUPONLTest" /> -->
+			
+			
+		</classes>
+	</test>
+	
+<!-- 	<test name="Regression3">
+		<classes>
+			<class name="com.jmr.testsuite.fas.action.fx.FXSTRPAY_Test" />
+		</classes>
+	</test> -->
+</suite>

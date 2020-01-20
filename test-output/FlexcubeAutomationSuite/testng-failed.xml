@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FlexcubeAutomationSuite]">
+  <test name="Regression2">
+    <classes>
+      <class name="com.jmr.testsuite.sujeet.action.BCDTRONLTest"/>
+      <class name="com.jmr.testsuite.sujeet.action.BCDTREASTest"/>
+      <class name="com.jmr.testsuite.sujeet.action.DEDUPONLTest"/>
+      <class name="com.jmr.testsuite.sujeet.action.CFDFLTRITest"/>
+      <class name="com.jmr.testsuite.sujeet.action.DEDTLRONTest"/>
+      <class name="com.jmr.testsuite.sujeet.action.CADAMBLKTest"/>
+      <class name="com.jmr.testsuite.sujeet.action.CADCAMBLTest"/>
+    </classes>
+  </test> <!-- Regression2 -->
+  <test name="Regression2(failed)">
+    <classes>
+      <class name="com.jmr.testsuite.sujeet.action.BCDTREASTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.sujeet.action.BCDTREASTest -->
+      <class name="com.jmr.testsuite.sujeet.action.CADAMBLKTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.sujeet.action.CADAMBLKTest -->
+      <class name="com.jmr.testsuite.sujeet.action.BCDTRONLTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.sujeet.action.BCDTRONLTest -->
+      <class name="com.jmr.testsuite.sujeet.action.CADCAMBLTest">
+        <methods>
+          <include name="executeTestCase"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.sujeet.action.CADCAMBLTest -->
+      <class name="com.jmr.testsuite.sujeet.action.DEDTLRONTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.sujeet.action.DEDTLRONTest -->
+      <class name="com.jmr.testsuite.sujeet.action.CFDFLTRITest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.sujeet.action.CFDFLTRITest -->
+      <class name="com.jmr.testsuite.sujeet.action.DEDUPONLTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="executeTestCase"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.jmr.testsuite.sujeet.action.DEDUPONLTest -->
+    </classes>
+  </test> <!-- Regression2(failed) -->
+</suite> <!-- Failed suite [FlexcubeAutomationSuite] -->

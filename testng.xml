@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FlexcubeAutomationSuite" verbose="1">
+	
+	<!-- <test name="Regression1">
+		<classes>
+			<class name="com.jmr.testsuite.fas.action.cl.CLDACCNT_Test" />
+		</classes>
+	</test> -->
+	
+	<test name="Regression2">
+		<classes>
+		
+	 		<class name="com.jmr.testsuite.sujeet.action.STDKYCMNTest" />
+ 			<class name="com.jmr.testsuite.fas.action.st.STDCIF_Test" />
+			<class name="com.jmr.testsuite.fas.action.st.STDCUSAC_Test" />
+ 
+ 			<class name="com.jmr.testsuite.fas.action.st.DepositAccountBooking" />
+ 
+ 			<class name="com.jmr.testsuite.fas.action.cl.CLDACCNT_Test" />
+			<class name="com.jmr.testsuite.fas.action.cl.CLDMNDSB_Test" />
+			<class name="com.jmr.testsuite.fas.action.cl.CLDPYMNT_Test" />
+			<class name="com.jmr.testsuite.fas.action.cl.CLDACCVM_Test" />
+ 			<class name="com.jmr.testsuite.fas.action.mm.MMDTRONL_Test" /> 
+ 			<class name="com.jmr.testsuite.fas.action.wb.FXPurchaseWalkin_8004_Test" />
+			<class name="com.jmr.testsuite.fas.action.wb.FXSaleWalIn_8203_Test" />
+			<class name="com.jmr.testsuite.fas.action.wb.CashDeposit_1401Test" />
+			<class name="com.jmr.testsuite.fas.action.wb.CashWithdrawl_1001Test" />
+			
+		</classes>
+	</test>
+	
+<!-- 	<test name="Regression3">
+		<classes>
+			<class name="com.jmr.testsuite.fas.action.fx.FXSTRPAY_Test" />
+		</classes>
+	</test> -->
+</suite>
